@@ -5,6 +5,7 @@ import './components/songs'
 import axios from 'axios'
 
 
+
 const axios = require('axios');
 
 const options = {
@@ -18,7 +19,7 @@ const options = {
     offset: '0'
   },
   headers: {
-    'X-RapidAPI-Key': '4fa00a0351mshfded974940fc926p1e970ajsnfe19efc5fbb3',
+    'X-RapidAPI-Key': REACT_APP_API_KEY,
     'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
   }
 };
