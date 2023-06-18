@@ -1,11 +1,12 @@
 import React from 'react'
 
+
 const ShazamSearch = () => {
 
-    
+
   return (
     <div>
-      
+
     </div>
   )
 }
